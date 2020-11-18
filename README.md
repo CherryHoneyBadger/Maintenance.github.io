@@ -23,7 +23,7 @@
 
 
 # -- API -- 
-    * [Openlayers] : https://openlayers.org/
-    * [Ol-Cesium]  : https://openlayers.org/ol-cesium/
-    * [CesiumJS]   : https://cesium.com/cesiumjs/
+    * [Openlayers] (https://openlayers.org/)
+    * [Ol-Cesium] (https://openlayers.org/ol-cesium/)
+    * [CesiumJS] (https://cesium.com/cesiumjs/)
 
