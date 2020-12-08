@@ -5,6 +5,14 @@
 
 # -- Update Note --
 
+## --- v0.5 ---
+
+    Openlayers에 Icon Pixel Operations를 이용하여 지도 화면에 마커 이미지를 추가했습니다
+    안 쓰는 코드는 Code.txt 파일에 정리하였습니다.
+
+    <img src="./img/2d_marker.jps" width= "400" height= "400">
+     <img src="./img/3d_marker.jps" width= "400" height= "400">
+    
 ## --- v0.4 ---
 
 ### == 2020-11-26 업데이트 내용 ==
