@@ -5,12 +5,15 @@
 
 # -- Update Note --
 
+## --- v0.6 ---
+
+    Openlayers - View Animation를 추가하였습니다. 지도 하단에 버튼을 누르면
+    특정 지역으로 이동하면서 에니메이션 효과가 나타납니다.
+
 ## --- v0.5 ---
 
     Openlayers에 Icon Pixel Operations를 이용하여 지도 화면에 마커 이미지를 추가했습니다
     사용하지 않는 코드는 Code.txt 파일에 정리하였습니다.
-![캡쳐1](./img/2d_marker.jpg)
-![캡쳐2](./img/3d_marker.jpg)
     
 ## --- v0.4 ---
 
