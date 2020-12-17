@@ -5,6 +5,12 @@
 
 # -- Update Note --
 
+## --- v0.7 ---
+
+    Openlayers - Full Screen Control with extended source element 가 추가되었습니다.
+    전체화면 기능을 사용할 수 있습니다. 사이드 패들이 추가 되었습니다. 사이드 패널에
+    화면 이동 버튼들이 위치합니다.
+
 ## --- v0.6 ---
 
     Openlayers - View Animation를 추가하였습니다. 지도 하단에 버튼을 누르면
