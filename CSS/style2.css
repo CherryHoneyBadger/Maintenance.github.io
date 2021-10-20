@@ -1,0 +1,10 @@
+.buttoncontainer { 
+    position: absolute;
+    background-color: blue;
+    width: 150px;
+    height: 60px;
+    z-index: 10;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
