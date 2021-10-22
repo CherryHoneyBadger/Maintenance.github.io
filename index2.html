@@ -28,21 +28,31 @@
       destination : Cesium.Cartesian3.fromDegrees(-122.4175, 37.655, 400),
       orientation : {
         heading : Cesium.Math.toRadians(0.0),
-        pitch : Cesium.Math.toRadians(-15.0),
+        pitch : Cesium.Math.toRadians(-90.0),
       }
     });
 
+    //Clickc evnet func flyTo sample code
     const button = document.getElementById('button');
     
     button.addEventListener('click', event => {
         viewer.camera.flyTo({
-            destination : Cesium.Cartesian3.fromDegrees(128.5526196, 36.5406766, 255),
+            destination : Cesium.Cartesian3.fromDegrees(128.5526196, 36.5406766, 555),
             orientation : {
         heading : Cesium.Math.toRadians(0.0),
-        pitch : Cesium.Math.toRadians(0.0),
+        pitch : Cesium.Math.toRadians(-90.0),
         }
         });
     });
+
+    var pinbuilder = new Cesium.PinBuilder();
+    viewer.entities.add({
+      name: 'test',
+      position: Cesium.Cartesian3.fromDegrees(128.5526196, 36.5406766, 255),
+      billboard: {
+        image: pinBuilder.fromText("병산서원", Cesium.Color.ROYALBLUE, 100).toDataURL(),
+      }
+    })
   </script>
  </div>
 </body>
